@@ -77,7 +77,7 @@ button:focus{
     color: white
 } */
 
-.backdrop{
+/* .backdrop{
     position: absolute;
     top: 0;
     left: 0;
@@ -100,4 +100,49 @@ button:focus{
 .backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
+} */
+/* .menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.menu-link{
+    display: block;
+    background-color: violet;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+.menu-item:hover.submenu{
+    opacity: 1;
+    }
+.submenu{
+    list-style: none;
+    margin: 0;
+
+    padding: 10px;
+    opacity: 0;
+}
+.menu-item{
+    outline: 1px solid red;
+} */
+
+
+
+a,
+li{
+    list-style: ;
+    text-decoration: none;
+}
+ul{
+
 }
