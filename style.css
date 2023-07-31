@@ -137,12 +137,6 @@ a{
 } */
 
 
-
-a,
-li{
-    list-style: ;
-    text-decoration: none;
-}
-ul{
-
+textarea{
+    resize: none;
 }
