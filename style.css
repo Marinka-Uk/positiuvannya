@@ -136,7 +136,47 @@ a{
     outline: 1px solid red;
 } */
 
-
+/* 
 textarea{
     resize: none;
+} */
+
+ul{
+    list-style: none;
+}
+.field{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    }
+.form .icon{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+   display: block;
+    width: 15px;
+    height: 15px;
+    background-color: teal;}
+   
+.field input{
+outline: none;
+width: 150px;
+height: 30px;
+padding-left: 25px;}
+
+.field input:focus + .icon,
+.field input:hover + .icon{ 
+    background-color: blue;
+}
+
+/* .field input:focus,
+.field input:hover{ 
+    border-color: blue;
+} */
+.form:focus-within .icon
+{ background-color: blue;}
+
+.form:focus-within input{
+    border-color: blue;
 }
