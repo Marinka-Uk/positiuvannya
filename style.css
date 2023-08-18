@@ -347,7 +347,7 @@ transition: opacity 250ms cubic-bezier (0.4, 0, 0.2, 1), transform 250ms cubic-b
 
 
 
-          .backdrop {
+          /* .backdrop {
             position: fixed;
             top: 0;
             left: 0;
@@ -385,4 +385,71 @@ transition: opacity 250ms cubic-bezier (0.4, 0, 0.2, 1), transform 250ms cubic-b
 
             background-color: #fff;
           
+          } */
+
+@keyframes white-circle{
+  0%{
+    left: 0;
+    
+  }
+  50%{
+    left: 30%;
+    border-radius:0 ;
+ 
+  }
+  100%{
+   left: 100%;
+   background-color: aqua;
+   width: 10px;
+   height: 20px;
+  }
+}
+
+
+          .content{
+            width: 800px;
+            background-color: rgb(254, 0, 225);
+            margin-left:auto ;
+            margin-right: auto;
+            padding: 30px;
           }
+
+          .content-circle{
+
+            width: 300px;
+            height: 400px;
+            background-color: #000000;
+            border-radius: 100%;
+            position: relative;
+            left: 0;
+
+            /* анімація */
+            
+            animation: white-circle 1500ms linear infinite alternate;
+          }
+
+          .content:hover .content-circle{
+            animation-play-state: paused ;
+          
+          }
+
+
+
+
+          /* .animation__circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #5e5373;
+            position: relative;
+            animation-name: circle;
+            }
+            /* ключевые кадры */
+            /* @keyframes circle{
+            0%{ */
+            /* css свойства */
+            /* }
+            100%{ */
+            /* css свойства */
+            /* }
+            } */ 
